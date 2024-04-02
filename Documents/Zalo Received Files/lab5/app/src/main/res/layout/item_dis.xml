@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/crddis"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/khung"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ellipsize="middle"
+                android:singleLine="true"
+
+                android:text="stt"
+                android:textColor="#2196F3"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/txttieude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Tên công ty"
+                android:textColor="#2196F3"
+                android:textSize="26dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnupdate"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/edit" />
+
+            <ImageButton
+                android:id="@+id/btndelete"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/delete" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
