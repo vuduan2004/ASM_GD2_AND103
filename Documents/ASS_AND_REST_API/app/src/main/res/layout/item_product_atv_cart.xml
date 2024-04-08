@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:id="@+id/item_product_frm_home"
+    android:layout_marginBottom="10dp">
+    <ImageView
+        android:id="@+id/img_product_atv_cart"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_banner01"/>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/txt_name_product_atv_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="hahadsssfsfsdssdsddssdcsdsdfsdsdcsdcsah"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txt_price_atv_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#DD8560"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:text="1000"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_remove_atv_cart"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:background="#2196F3"
+        android:textColor="@color/white"
+        android:text="Xoá"/>
+
+</LinearLayout>

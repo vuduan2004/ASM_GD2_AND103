@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/img_background_login"
+    android:orientation="vertical"
+    tools:context=".screen.LoginActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#9F000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="bottom|center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng Nhập"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="center"
+                android:textColor="#E894B0"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="Tên tài khoản "
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_username_atv_login"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#fff"
+                android:drawableLeft="@drawable/ic_user"
+                android:drawablePadding="8dp"
+                android:hint="Tên tài khoản"
+                android:textColorHint="#EDC7D4"
+                android:padding="8dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white" />
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="Mật khẩu "
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_marginBottom="20dp"
+                android:id="@+id/ed_password_atv_login"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+
+                android:backgroundTint="#ffff"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="8dp"
+                android:hint="Mật khẩu"
+                android:textColorHint="#EDC7D4"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/cbx_remember_pass"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Nhớ mật khẩu "
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_login"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/border_btn_login"
+                android:text="Đăng Nhập"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="30dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bạn chưa có tài khoản ?"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/txt_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Đăng ký"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_go_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Trang chủ"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_login"
+            ></LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

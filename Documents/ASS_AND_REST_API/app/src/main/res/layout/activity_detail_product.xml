@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.DetailProductActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#E3E3E3"
+        android:paddingTop="20dp">
+        <ImageView
+            android:id="@+id/img_back_atv_detail"
+            android:layout_width="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thủ tục thanh toán"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_333"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/img_product_atv_detail"
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_banner01"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_name_product_atv_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lamerei"
+                android:textSize="26sp"/>
+            <TextView
+                android:id="@+id/txt_price_atv_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$120"
+                android:textColor="#DD8560"
+                android:textSize="26sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:background="@drawable/border_btn_total"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_remove_total" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp"
+                    android:text="1"/>
+                <ImageView
+                    android:background="@drawable/border_btn_total"
+                    android:layout_width="25dp"
+                    android:padding="5dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_add_total"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="#DFDFDF"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chi tiết sản phẩm"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="360dp">
+            <TextView
+                android:id="@+id/txt_description_atv_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Áo khoác blazer trendy, tay lửng có nhún ở sườn tay.
+
+- Chất liệu mango có độ co dãn nhẹ, dày dặn, bền màu.
+
+- Mặc đi làm, đi chơi, dạo phố, đi cafe với bạn bè.
+- Áo khoác blazer trendy, tay lửng có nhún ở sườn tay.
+
+- Chất liệu mango có độ co dãn nhẹ, dày dặn, bền màu.
+
+- Mặc đi làm, đi chơi, dạo phố, đi cafe với bạn bè.
+- Áo khoác blazer trendy, tay lửng có nhún ở sườn tay.
+
+- Chất liệu mango có độ co dãn nhẹ, dày dặn, bền màu.
+
+- Mặc đi làm, đi chơi, dạo phố, đi cafe với bạn bè.
+- Áo khoác blazer trendy, tay lửng có nhún ở sườn tay.
+
+- Chất liệu mango có độ co dãn nhẹ, dày dặn, bền màu.
+
+- Mặc đi làm, đi chơi, dạo phố, đi cafe với bạn bè.
+ Mặc đi làm, đi chơi, dạo phố, đi cafe với bạn bè.
+- Áo khoác blazer trendy, tay lửng có nhún ở sườn tay.
+
+- Chất liệu mango có độ co dãn nhẹ, dày dặn, bền màu.
+
+- Mặc đi làm, đi chơi, dạo phố, đi cafe với bạn bè.
+- Áo khoác blazer trendy, tay lửng có nhún ở sườn tay.
+
+- Chất liệu mango có độ co dãn nhẹ, dày dặn, bền màu.
+
+- Mặc đi làm, đi chơi, dạo phố, đi cafe với bạn bè.
+ Mặc đi làm, đi chơi, dạo phố, đi cafe với bạn bè.
+- Áo khoác blazer trendy, tay lửng có nhún ở sườn tay.
+
+- Chất liệu mango có độ co dãn nhẹ, dày dặn, bền màu.
+
+- Mặc đi làm, đi chơi, dạo phố, đi cafe với bạn bè.
+- Áo khoác blazer trendy, tay lửng có nhún ở sườn tay.
+
+- Chất liệu mango có độ co dãn nhẹ, dày dặn, bền màu.
+
+- Mặc đi làm, đi chơi, dạo phố, đi cafe với bạn bè."/>
+        </ScrollView>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_add_product_to_cart"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:textColor="#DD8560"
+                android:background="@drawable/border_btn_yeuthich"
+                android:text="Giỏ hàng"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_mua_ngay"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="#DD8560"
+                android:textColor="@color/white"
+                android:text="Mua ngay"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
